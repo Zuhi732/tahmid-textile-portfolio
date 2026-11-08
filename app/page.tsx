@@ -121,6 +121,14 @@ export default function Home() {
                 {item.label.toUpperCase()}
               </a>
             ))}
+            <a
+              href="#contact"
+              onClick={() => setMenuOpen(false)}
+              className="mt-6 flex w-full items-center justify-between bg-[#203A32] px-5 py-4 text-xs font-semibold tracking-[0.25em] text-[#F5F3ED] transition-colors hover:bg-[#C77C4B]"
+            >
+              <span>LET'S CONNECT</span>
+              <span className="text-lg">↗</span>
+            </a>
           </div>
         )}
       </header>
